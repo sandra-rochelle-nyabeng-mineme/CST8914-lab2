@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Question 2 - CSS</title>
+   <style>
+      .mainsection a {
+         text-decoration: underline; /* Mieux pour l'accessibilité, visible comme lien */
+         color: #1a73e8; /* Couleur contrastée pour la lisibilité */
+         outline: none;
+      }
+
+      /* Focus visible pour utilisateurs clavier */
+      .mainsection a:focus {
+         outline: 3px solid #ff9900;
+         background-color: #f0f0f0;
+      }
+
+      /* Lisibilité générale */
+      body {
+         font-family: Arial, sans-serif;
+         line-height: 1.5;
+         background-color: #ffffff;
+         color: #000000;
+      }
+
+      ul {
+         list-style-type: disc;
+         padding-left: 20px;
+      }
+   </style>
+</head>
+<body>
+   <div class="mainsection">
+      <!-- Remplacement de l'image de texte par texte réel pour l'accessibilité -->
+      <h1>Shopping Categories</h1>
+
+      <ul>
+         <li><a href="#">Animals</a></li>
+         <li><a href="#">Computers</a></li>
+         <li><a href="#">Diversity and Inclusion</a></li>
+         <li><a href="#">Food</a></li>
+         <li><a href="#">Medicine</a></li>
+         <li><a href="#">Music</a></li>
+      </ul>
+   </div>    
+</body>
+</html>

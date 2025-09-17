@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question 4 - JavaScript</title>
+</head>
+
+<body>
+    <h1>HTML DOM Events</h1>
+    <p>Trigger a function on hover or focus that will output "Hello World":</p>
+
+    <!-- Ajout de onfocus pour les utilisateurs clavier -->
+    <button onmouseover="myFunction()" onfocus="myFunction()">Action!</button>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
+</body>
+
+</html>
